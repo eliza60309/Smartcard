@@ -1,0 +1,8 @@
+﻿main.obj : error LNK2019: 無法解析的外部符號 ABSGetLastErrorInfo 在函式 "int __cdecl theEnd(int)" (?theEnd@@YAHH@Z) 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 SCardEstablishContext 在函式 main 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 SCardConnectA 在函式 main 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 SCardTransmit 在函式 "int __cdecl sendScardCommand(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned long,struct _SCARD_IO_REQUEST const *,int,unsigned char const *,unsigned char *,unsigned long *)" (?sendScardCommand@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@KPEBU_SCARD_IO_REQUEST@@HPEBEPEAEPEAK@Z) 中被參考
+WINSCARD.LIB : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+bsgui.lib : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+bsapi.lib : warning LNK4272: 程式庫電腦類型 'x86' 與目標電腦類型 'x64' 發生衝突
+C:\Users\Alex\source\repos\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 4 個無法解析的外部符號

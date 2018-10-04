@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\alex\source\repos\project1\project1\bstypes.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\users\alex\source\repos\project1\project1\main.cpp(137): warning C4018: '<': signed/unsigned 不相符
+main.obj : error LNK2019: 無法解析的外部符號 _ABSGetLastErrorInfo@8 在函式 "int __cdecl theEnd(int)" (?theEnd@@YAHH@Z) 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 _SCardEstablishContext@16 在函式 _main 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 _SCardConnectA@24 在函式 _main 中被參考
+main.obj : error LNK2019: 無法解析的外部符號 _SCardTransmit@28 在函式 "int __cdecl sendScardCommand(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,unsigned long,struct _SCARD_IO_REQUEST const *,int,unsigned char const *,unsigned char *,unsigned long *)" (?sendScardCommand@@YAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@KPBU_SCARD_IO_REQUEST@@HPBEPAEPAK@Z) 中被參考
+C:\Users\Alex\source\repos\Project1\Debug\Project1.exe : fatal error LNK1120: 4 個無法解析的外部符號
